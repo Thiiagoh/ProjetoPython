@@ -10,5 +10,11 @@ Explicação sobre o script feito em python:
 
 1° Primeiro bloco de comandos está realacionado á instalação das bibliotecas/api.
 2° Segundo bloco de comandos está relacionado á importação dos comandos a serem utilizados
-3° Terceiro bloco de comandos está relacionado á extração de dados do twitter, que funciona da seguinte maneira, primeiramente é definido a data de inicialização e a data final, logo em seguida o codigo vai entrar em loop, sendo assim definido pelo "for x in range(360):" naqual 360 representa o numero de dias, e o seguinte comando " if i>10:" naqual o 10 representa a quantidade de dados a serem recolhidos em determinado dia, apos passar pelo IF o codigo ira incrementar uma data tanto inicial quanto final para poder rodar até a quantia de dia informado, sendo assim ira recolher 10 twwites por dia durante 360 dias.
-4° Quarto bloco 
+3° Terceiro bloco de comandos está relacionado á extração de dados do twitter, que funciona da seguinte maneira, primeiramente é definido a data de inicialização e a data final, logo em seguida o codigo vai entrar em loop, sendo assim definido pelo "for x in range(360):" naqual 360 representa o numero de dias, e o seguinte comando " if i>10:" naqual o 10 representa a quantidade de dados a serem recolhidos em determinado dia, apos passar pelo IF o codigo ira incrementar uma data tanto inicial quanto final para poder rodar até a quantia de dia informado, sendo assim ira recolher 10 twites por dia durante 360 dias, logo em seguida todo o conteudo extraido será colocado dentro de um dataframe.
+4° Quarto bloco este terá a função de analisar o sentimento de cada frase extraido do twitter.
+5º Quinto bloco e por fim este será realizado uma alteração na data e tambem será criado um nvo datafram com a junção da data e do sentimento e logo em seguida o dataframe será salvo como um arquivo .xlsx para poder ser utilizado no power bi.
+
+Do 6º bloco até o 14° será realizado o mesmo procedimento para realizar a extraçaõ de dados dos seguintes candidatos, Lula, Ciro e Simone Tebet.
+
+15º Neste bloco será feita a extração dos dados da eleição feitos pelo poder360, naqual a parte selecionada para a pesquisa será a do instituto Datafolha.
+16º Neste bloco acontecera o filtro a respeito do dataframe criado para coletar as informações especificas e será criado mais um arquivo .xlsx para ser utilizado no power bi.
