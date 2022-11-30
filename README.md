@@ -14,7 +14,7 @@ Para rodar os scripts é necessario ter o python instalado e o power bi para pod
 4. Quarto bloco este terá a função de analisar o sentimento de cada frase extraido do twitter.
 5. Quinto bloco e por fim este será realizado uma alteração na data e também será criado um novo dataframe com a junção da data e do sentimento e logo em seguida o dataframe será salvo como um arquivo .xlsx para poder ser utilizado no power bi.
 6. Do 6º bloco até o 14° será realizado o mesmo procedimento para realizar a extração de dados dos seguintes candidatos: Bolsonaro, Lula, Ciro e Simone Tebet.
-7. Neste bloco será feita a extração dos dados da eleição feitos pelo poder360, naqual a parte selecionada para a pesquisa será a do instituto Datafolha, nessa código o campo __billing_project_id=""__ requer o id de um projeto no google cloud para realizar o download.
+7. Neste bloco será feita a extração dos dados da eleição feitos pelo poder360, naqual a parte selecionada para a pesquisa será a do instituto Datafolha, nesse código o campo __billing_project_id=""__ requer o id de um projeto no google cloud para realizar o download.
 8. Neste bloco acontecera o filtro a respeito do dataframe criado para coletar as informações especificas e será criado mais um arquivo .xlsx para ser utilizado no power bi.
 ## Link do Power BI:
 
